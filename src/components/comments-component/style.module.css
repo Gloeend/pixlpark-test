@@ -1,0 +1,20 @@
+.list {
+    /*list-style-type: circle;*/
+    padding: 10px;
+}
+
+.list li {
+    cursor: pointer;
+}
+
+.list li:not(:first-child) {
+    margin-top: 10px;
+}
+
+.item {
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+}
